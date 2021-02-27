@@ -289,3 +289,91 @@ main{
     color: var(--warm-black);
     font-weight: 300;
 }
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.product-detail--batata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);  /*Para que se ubique en la mitad pero que quite la dimensiones de la img*/
+    background-image: url('https://res.cloudinary.com/dqepv3ry1/image/upload/v1612824064/Batata_assets/icon/batata_jhtfcr.svg');
+
+}
+.product-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top:  50px;
+    text-align: center;
+    
+}
+.product-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product-detail--card{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .card-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.product-card--title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product-card--body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.clock{
+    background-image: url('https://res.cloudinary.com/dqepv3ry1/image/upload/v1612824064/Batata_assets/icon/clock_j8e123.svg');
+
+}
+.eye{
+    background-image: url('https://res.cloudinary.com/dqepv3ry1/image/upload/v1612824064/Batata_assets/icon/eye_monyia.svg');
+
+}
+
+.money{
+    background-image: url('https://res.cloudinary.com/dqepv3ry1/image/upload/v1612824064/Batata_assets/icon/dollar-sign_hnhrt5.svg');
+}
+.check{
+    background-image: url('https://res.cloudinary.com/dqepv3ry1/image/upload/v1612824064/Batata_assets/icon/check-circle_drwlcb.svg');
+}
